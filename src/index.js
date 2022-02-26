@@ -18,17 +18,18 @@ ReactDOM.render(
     <Favicon url={Esodevlogo} />
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="history" element={<History />} />
-      <Route path="contact" element={<Contact />} />
-      <Route
-      path="*"
-      element={
-        <main style={{ padding: "1rem" }}>
-          <p>There's nothing here!</p>
-        </main>
-      }
-    />
+      <Route path="/" element={<App />} >
+       <Route path="history" element={<History />} />
+        <Route path="contact" element={<Contact />} />
+        <Route
+          path="*"
+          element={
+           <main style={{ padding: "1rem" }}>
+            <p>There's nothing here!</p>
+            </main>
+          }
+        />
+        </Route>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,
