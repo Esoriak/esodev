@@ -1,0 +1,18 @@
+.Nav-Bar {
+    display:flex;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 10%;
+    height: 60vh;
+    padding-top: 10vh;
+    background-color: #2B2B2B;
+}
+
+.link-screen {
+    color: #FFD333;
+    text-decoration: none;
+}
+.link-screen:hover{
+    color: #A93209;
+}
