@@ -1,4 +1,3 @@
-import { div } from 'prelude-ls';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Esodevlogo from '../Utils/Assets/EsodevlogoFinale2.png'

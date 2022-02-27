@@ -12,6 +12,8 @@ import {
 import Esodevlogo from './Utils/Assets/favicon3.png'
 import Contact from './Screens/Contact';
 import History from './Screens/History';
+import Home from './Screens/Home';
+import Portfolio from './Screens/Portfolio'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,8 +21,10 @@ ReactDOM.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} >
-       <Route path="history" element={<History />} />
-        <Route path="contact" element={<Contact />} />
+       <Route path="History" element={<History />} />
+       <Route path="Portfolio" element={<Portfolio />} />
+       <Route path="Home" element={<Home />} />
+        <Route path="Contact" element={<Contact />} />
         <Route
           path="*"
           element={

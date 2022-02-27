@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #2B2B2B;
 }
 
 
@@ -12,8 +13,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
-.App-link {
-  color: #FFD333;
+.content-home{
+  display: flex;
+  flex-direction: row;
 }

@@ -1,18 +1,37 @@
+/* .Nav-box{
+    background-color:#2B2B2B;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+} */
+
 .Nav-Bar {
     display:flex;
     padding-bottom: 2rem;
     flex-direction: column;
     justify-content:space-between;
-    width: 10%;
-    height: 60vh;
     padding-top: 10vh;
-    background-color: #2B2B2B;
+    width: 20vw;
 }
 
 .link-screen {
     color: #FFD333;
     text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    overflow: hidden;
+    background: linear-gradient(to right, #FFD333, #FFD333 50%, #A93209 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 1700ms ease;
 }
 .link-screen:hover{
     color: #A93209;
+    background-position: 0 100%;
 }
